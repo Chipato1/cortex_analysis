@@ -1,6 +1,5 @@
 # Cortical Surface Analysis
 
-![Brain Image](brain_image.png)
 
 Welcome to the Cortical Surface Analysis project! This repository contains code to analyze cortical surfaces, specifically sets of vertices and faces representing brain hemispheres. The primary focus is on extracting and analyzing cortical thickness and curvature information from brain reconstructions.
 
@@ -9,6 +8,11 @@ Welcome to the Cortical Surface Analysis project! This repository contains code 
 Brain reconstructions consist of two meshes, each representing a hemisphere of the brain. The project places a significant emphasis on cortical thickness analysis, as well as curvature metrics. The analysis utilizes the FreeSurfer average template mapping to extract values from specific regions of interest. Additionally, the project allows for the application of masks generated through statistical experiments, enhancing the depth and specificity of the analysis. The surfaces can be generated through various 3D reconstruction algorithms using MRI pictures as an input. Nowadays, there are promising deep learning-based methods like CortexODE, Vox2Cortex, and DeepCSR, as well as traditional approaches such as the Computational Anatomy toolbox and FreeSurfer.
 
 Please note that, as of now, defects within the cortical surfaces are not actively analyzed. This aspect may be considered for future development.
+
+## Potential usage
+
+The analysis can potentially be used to perform group studies on how dementia affect the human cortex (GLM). See a example illustration below:
+![Brain Image](demo/grp_study.png)
 
 ## Features
 
