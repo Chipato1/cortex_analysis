@@ -11,7 +11,9 @@ Please note that, as of now, defects within the cortical surfaces are not active
 
 ## Potential usage
 
-The analysis can potentially be used to perform group studies on how dementia affect the human cortex (GLM). See a example illustration below:
+The analysis holds the potential to facilitate group studies exploring how dementia impacts the human cortex through General Linear Modeling (GLM). An illustrative example is provided below:
+
+
 ![Brain Image](demo/grp_study.png)
 
 ## Features
